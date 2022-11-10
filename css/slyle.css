@@ -1,0 +1,94 @@
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --white-color: #FFFFFF;
+    --blue-color: #2196F3;
+    --second-background-color: #F5F4FA;
+    --second-white-color: rgba(255, 255, 255, 0.6);
+}
+
+body {
+    background-color: #F5F5F5;
+    color: var(--primary-text-color);
+}
+
+ul {
+    list-style: none;
+}
+
+/*колір головного текста #212121; */
+/*колір другорядного тексту #757575;*/
+;
+/* Білий колір #FFFFFF;*/
+/*Синій колір #2196F3*/
+/* Фон героя #2F303A */
+/*Колір головного фона #F5F5F5*/
+/*Колір другого фона #F5F4FA*/
+
+
+.logo {
+    color: var(--blue-color)
+}
+
+/* site nav */
+.site-nav a {
+    color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--blue-color);
+}
+
+.site-nav .link.current {
+    color: var(--blue-color);
+}
+
+/* hero */
+.hero-title {
+    color: var(--white-color);
+
+}
+
+/* Section */
+.section-title {
+    color: var(--title-text-color);
+}
+
+/* Features */
+.feature-list .title {
+    color: var(--title-text-color);
+}
+
+/* Footer */
+.footer .primary {
+    color: var(--white-color);
+}
+
+.footer .secondary {
+    color: var(--second-white-color);
+}
+
+/* Button */
+.button {
+    color: var(--title-text-color);
+    background-color: var(--second-background-color);
+}
+
+
+.button.primary {
+    color: var(--white-color);
+    background-color: var(--blue-color);
+}
+
+.button.secondary {
+    color: var(--title-text-color);
+    background-color: var(--second-background-color);
+}
+
+
+.button.secondary:hover {
+    color: var(--white-color);
+    background-color: var(--blue-color);
+
+}
