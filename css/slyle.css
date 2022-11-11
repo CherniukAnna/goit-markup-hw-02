@@ -46,11 +46,11 @@ body {
 .logo {
     color: var(--blue-color);
     
-        font-family: Raleway;
+    font-family: Raleway;
     
-        font-size: 26px;
-        line-height: 1.2;
-        text-decoration: none;
+    font-size: 26px;
+    line-height: 1.2;
+    text-decoration: none;
 }
 
 
@@ -123,8 +123,7 @@ line-height: 1.19;
 }
 
 .text-title {
-    
-    font-weight: 400;
+        
     font-size: 16px;
     line-height: 1.19;
 }
@@ -149,21 +148,37 @@ line-height: 1.19;
 
 /* Footer */
 
-.footer .primary {
+.footer .address {
     color: var(--white-color);
+    text-decoration: none;
+
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    
 }
-.footer .primary:hover,
-.footer .primary:focus {
+.footer .address:hover,
+.footer .address:focus {
     color: var(--blue-color);
 }
 
 
-.footer .second {
+.footer .info {
     color: var(--second-white-color);
+    text-decoration: none;
+
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+           
 }
 
-.footer .second:hover,
-.footer .second:focus {
+.footer .info:hover,
+.footer .info:focus {
     color: var(--blue-color);
 }
 
@@ -171,8 +186,12 @@ line-height: 1.19;
     color: var(--white-color);
 }
 
-.footer-dg {
+.footer-bg {
     background-color: var(--title-text-color);
+    
+}
+.text {
+font-style: normal;
 }
 
 /* Button */
@@ -188,8 +207,7 @@ line-height: 1.19;
     background-color: var(--blue-color);
 
     cursor: pointer;
-
-    
+    font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;  
@@ -202,17 +220,14 @@ line-height: 1.19;
     color: var(--title-text-color);
     background-color: var(--second-background-color);
     
-
-    font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.62;
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
     
-        text-align: center;
-        letter-spacing: 0.03em;
 }
-
 
 .button .secondary:hover,
 .button .secondary:focus{
@@ -221,11 +236,3 @@ line-height: 1.19;
 
 }
 
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 36px;
-/* identical to box height, or 200% */
-
-letter-spacing: 0.06em;
