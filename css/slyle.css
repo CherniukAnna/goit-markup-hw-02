@@ -21,7 +21,6 @@ body {
 
 /*колір головного текста #212121; */
 /*колір другорядного тексту #757575;*/
-;
 /* Білий колір #FFFFFF;*/
 /*Синій колір #2196F3*/
 /* Фон героя #2F303A */
@@ -30,26 +29,13 @@ body {
 
 /* logo */
 
-
-
-.logo {
-    color: var(--blue-color);
-
-    font-family: Raleway;
-
-    font-size: 26px;
-    line-height: 1.2;
-    text-decoration: none;
-
-
-}
 .logo {
     color: var(--blue-color);
     
     font-family: Raleway;
     
     font-size: 26px;
-    line-height: 1.2;
+    line-height: 1.19;
     text-decoration: none;
 }
 
@@ -62,8 +48,7 @@ font-size: 26px;
 line-height: 1.2;
 }
 .logo:hover {
-    color: var(--title-text-color);
-    
+    color: var(--title-text-color); 
 }
 
 /* site nav */
@@ -76,8 +61,6 @@ line-height: 1.2;
     text-decoration: none
 }
 
-
-
 .site-nav .link:hover,
 .site-nav .link:focus {
     color: var(--blue-color);
@@ -87,21 +70,48 @@ line-height: 1.2;
     color: var(--blue-color);
 }
 
+.site-nav .contact {
+    color: var(--primary-text-color);
+   
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14; 
+}
+
+.site-nav .contact:hover,
+.site-nav .contact:focus {
+    color: var(--blue-color);
+}
+
 /* hero */
-.hero-title {
-    background-color: var(--hero-background-color);
+.hero .title {
+    
     color: var(--white-color);
 
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;  
-    text-align: center;
+}  
+
+.hero {
+background-color: var(--hero-background-color);
+text-align: center;
 }
 
-/* Section */
+/* Features */
+.feature-list .title {
+    color: var(--title-text-color);
 
-.section-team {
-    background-color: var(--second-background-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+
+}
+.text-title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
 }
 
 .section-title {
@@ -110,41 +120,41 @@ line-height: 1.2;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
-    text-align: center;
-        
+    text-align: center;    
 }
-.title {
+
+.section-team {
+    background-color: var(--second-background-color);
+}
+.section-team .title {
 color: var(--title-text-color);
     
 font-weight: 500;
 font-size: 16px;
 line-height: 1.19;
-
 }
 
-.text-title {
-        
+.section-team .text-title {
+    color: var(--primary-text-color);
+    
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
 }
 
-/* Features */
-.feature-list .title {
+.section-portfolio .title {
     color: var(--title-text-color);
-    
+
     font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    
+    font-size: 18px;
+    line-height: 2;
+}
+.section-portfolio .text-title {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.8;
 }
 
-.feature-list .text {
-
-    
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 1.7;
-}
 
 /* Footer */
 
@@ -152,7 +162,6 @@ line-height: 1.19;
     color: var(--white-color);
     text-decoration: none;
 
-    
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -164,12 +173,10 @@ line-height: 1.19;
     color: var(--blue-color);
 }
 
-
 .footer .info {
     color: var(--second-white-color);
     text-decoration: none;
 
-    
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -187,7 +194,7 @@ line-height: 1.19;
 }
 
 .footer-bg {
-    background-color: var(--title-text-color);
+    background-color: var(--hero-background-color)
     
 }
 .text {
@@ -198,10 +205,7 @@ font-style: normal;
 .button {
     color: var(--title-text-color);
     background-color: var(--second-background-color);
-
 }
-
-
 .button.primary {
     color: var(--white-color);
     background-color: var(--blue-color);
@@ -213,7 +217,6 @@ font-style: normal;
     line-height: 1.88;  
     align-items: center;
     text-align: center;
-    
 }
 
 .secondary {
