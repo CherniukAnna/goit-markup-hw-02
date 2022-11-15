@@ -76,6 +76,7 @@ line-height: 1.2;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14; 
+    text-decoration: none;
 }
 
 .site-nav .contact:hover,
@@ -108,7 +109,6 @@ text-align: center;
 
 }
 .text-title {
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
@@ -153,6 +153,9 @@ line-height: 1.19;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.8;
+}
+.story {
+    text-decoration: none;
 }
 
 
@@ -204,7 +207,6 @@ font-style: normal;
 /* Button */
 .button {
     color: var(--title-text-color);
-    background-color: var(--second-background-color);
 }
 .button.primary {
     color: var(--white-color);
